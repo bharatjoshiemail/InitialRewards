@@ -1,0 +1,11 @@
+/* userForm css*/
+
+.form-control {
+	margin-top:10px;
+	width:400px;
+}
+.btn {
+	margin-top:10px;
+	width:200px;
+	flow:right;
+}

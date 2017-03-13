@@ -1,0 +1,26 @@
+<?php
+class Billing{
+	private $s;
+	private $sArr = array();
+	private $eachCallAndTime = array();
+	private $timeH;
+	private $timeM;
+	private $payAmt;
+	
+	public function __construct($s){
+		$this->s = $s;
+		$this->sArr = explode(chr(10), $s);
+	}
+	
+	public function calculateTime(){
+		foreach($this->sArr as $key=>$val){
+			echo $key.'  '.$val.'<br>';
+			//$eachCallAndTime = explode(',', $e);
+		}
+	}
+	
+	public function solution($s){
+	
+	}
+}
+?>
