@@ -97,7 +97,7 @@ if($err == ''){
 		if ($_SERVER["REQUEST_METHOD"] == "GET") {
 			$message = $storageTypeSelected->delete($_GET['id']);
 			if($message){
-				header("Location: indexFile.php");
+				header("Location: indexDB.php");
 			}else{
 				$err = $message;
 			}
